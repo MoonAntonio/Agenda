@@ -80,24 +80,24 @@
             this.saveCurrentEntryToolStripMenuItem,
             this.changeJournalFolderToolStripMenuItem1});
             this.journalToolStripMenuItem.Name = "journalToolStripMenuItem";
-            this.journalToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
-            this.journalToolStripMenuItem.Text = "Journal";
+            this.journalToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
+            this.journalToolStripMenuItem.Text = "Agenda";
             // 
             // saveCurrentEntryToolStripMenuItem
             // 
             this.saveCurrentEntryToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("saveCurrentEntryToolStripMenuItem.Image")));
             this.saveCurrentEntryToolStripMenuItem.Name = "saveCurrentEntryToolStripMenuItem";
             this.saveCurrentEntryToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.saveCurrentEntryToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
-            this.saveCurrentEntryToolStripMenuItem.Text = "Save Current Entry";
+            this.saveCurrentEntryToolStripMenuItem.Size = new System.Drawing.Size(264, 22);
+            this.saveCurrentEntryToolStripMenuItem.Text = "Guardar Recordatorio Actual";
             this.saveCurrentEntryToolStripMenuItem.Click += new System.EventHandler(this.saveCurrentEntryToolStripMenuItem_Click);
             // 
             // changeJournalFolderToolStripMenuItem1
             // 
             this.changeJournalFolderToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("changeJournalFolderToolStripMenuItem1.Image")));
             this.changeJournalFolderToolStripMenuItem1.Name = "changeJournalFolderToolStripMenuItem1";
-            this.changeJournalFolderToolStripMenuItem1.Size = new System.Drawing.Size(211, 22);
-            this.changeJournalFolderToolStripMenuItem1.Text = "Change Journal Folder";
+            this.changeJournalFolderToolStripMenuItem1.Size = new System.Drawing.Size(264, 22);
+            this.changeJournalFolderToolStripMenuItem1.Text = "Cambiar Carpeta Agenda";
             this.changeJournalFolderToolStripMenuItem1.Click += new System.EventHandler(this.changeJournalFolderToolStripMenuItem1_Click);
             // 
             // helpToolStripMenuItem
@@ -105,15 +105,15 @@
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aboutToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.helpToolStripMenuItem.Text = "Help";
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+            this.helpToolStripMenuItem.Text = "Ayuda";
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("aboutToolStripMenuItem.Image")));
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
-            this.aboutToolStripMenuItem.Text = "About";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.aboutToolStripMenuItem.Text = "Sobre";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // save
@@ -125,7 +125,7 @@
             this.save.Name = "save";
             this.save.Size = new System.Drawing.Size(227, 32);
             this.save.TabIndex = 3;
-            this.save.Text = "Save (Ctrl+S)";
+            this.save.Text = "Guardar (Ctrl+S)";
             this.save.UseVisualStyleBackColor = true;
             this.save.Click += new System.EventHandler(this.save_Click);
             // 
@@ -138,25 +138,25 @@
             this.clear.Name = "clear";
             this.clear.Size = new System.Drawing.Size(227, 32);
             this.clear.TabIndex = 4;
-            this.clear.Text = "Clear";
+            this.clear.Text = "Limpiar Dia Entero";
             this.clear.UseVisualStyleBackColor = true;
             this.clear.Click += new System.EventHandler(this.clear_Click);
             // 
             // label1
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(6, 27);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 13);
+            this.label1.Size = new System.Drawing.Size(54, 13);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Word Count: ";
+            this.label1.Text = "Palabras: ";
             // 
             // wordcount
             // 
-            this.wordcount.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.wordcount.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.wordcount.AutoSize = true;
             this.wordcount.Location = new System.Drawing.Point(125, 27);
             this.wordcount.Name = "wordcount";
@@ -166,19 +166,19 @@
             // 
             // label2
             // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(6, 50);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(87, 13);
+            this.label2.Size = new System.Drawing.Size(39, 13);
             this.label2.TabIndex = 8;
-            this.label2.Text = "Character Count:";
+            this.label2.Text = "Letras:";
             // 
             // charcount
             // 
-            this.charcount.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.charcount.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.charcount.AutoSize = true;
             this.charcount.Location = new System.Drawing.Point(125, 50);
             this.charcount.Name = "charcount";
@@ -188,19 +188,19 @@
             // 
             // label3
             // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(11, 60);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(67, 13);
+            this.label3.Size = new System.Drawing.Size(92, 13);
             this.label3.TabIndex = 10;
-            this.label3.Text = "Size on disk:";
+            this.label3.Text = "Tamaño en disco:";
             // 
             // filesize
             // 
-            this.filesize.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.filesize.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.filesize.AutoSize = true;
             this.filesize.Location = new System.Drawing.Point(125, 60);
             this.filesize.Name = "filesize";
@@ -210,19 +210,19 @@
             // 
             // label4
             // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(11, 25);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(62, 13);
+            this.label4.Size = new System.Drawing.Size(89, 13);
             this.label4.TabIndex = 12;
-            this.label4.Text = "Last saved:";
+            this.label4.Text = "Ultimo Guardado:";
             // 
             // filetime
             // 
-            this.filetime.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.filetime.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.filetime.AutoSize = true;
             this.filetime.Location = new System.Drawing.Point(125, 25);
             this.filetime.Name = "filetime";
@@ -242,7 +242,7 @@
             this.groupBox1.Size = new System.Drawing.Size(227, 99);
             this.groupBox1.TabIndex = 15;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Statistics for Current Entry";
+            this.groupBox1.Text = "Estadisticas del Dia";
             // 
             // groupBox2
             // 
@@ -256,13 +256,13 @@
             this.groupBox2.Size = new System.Drawing.Size(227, 111);
             this.groupBox2.TabIndex = 16;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "File Information";
+            this.groupBox2.Text = "Informacion Archivo";
             // 
             // journalentry
             // 
-            this.journalentry.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.journalentry.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.journalentry.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.journalentry.KeyUp1 = null;
             this.journalentry.Location = new System.Drawing.Point(12, 33);
@@ -288,7 +288,8 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Journal";
-            this.Text = "Plain Text Journal";
+            this.Text = "Agenda";
+            this.Load += new System.EventHandler(this.Journal_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.groupBox1.ResumeLayout(false);

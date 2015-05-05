@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Plain Text Journal")]
-[assembly: AssemblyDescription("A a private journal tool. Saves your daily entries as plain text files, in an easy to sort hierarchy.")]
+[assembly: AssemblyTitle("Agenda")]
+[assembly: AssemblyDescription("Agenda creada a peticion de cliente. Si necesita ayuda por favor contacta conmigo por medio de telefono o correo.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("maciak.org")]
-[assembly: AssemblyProduct("Plain Text Journal")]
-[assembly: AssemblyCopyright("Copyright © Lukasz Grzegorz Maicak 2011")]
+[assembly: AssemblyCompany("miivico.com")]
+[assembly: AssemblyProduct("Agenda")]
+[assembly: AssemblyCopyright("Copyright © Antonio Mateo (lPinchol) 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

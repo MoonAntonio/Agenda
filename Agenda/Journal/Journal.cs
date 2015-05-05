@@ -16,11 +16,12 @@ namespace Journal
     public partial class Journal : Form
     {
         
+        // Cuando inicia el programa
         public Journal()
         {
             InitializeComponent();
 
-            string defaultdir = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "My Journal");
+            string defaultdir = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Agenda");
                         
             if (Properties.Settings.Default.JOURNAL_PATH == "none")
             {
@@ -68,14 +69,16 @@ namespace Journal
             }
         }
         
-
+        // Boton Guardar
         private void save_Click(object sender, EventArgs e)
         {
+            // Guarda la hoja
             saveEntry();
             journalentry.Focus();
             journalentry.Select();
         }
 
+        // Guarda la hoja actual
         public void saveEntry()
         {
             DateTime current = cal.SelectionStart;
@@ -114,6 +117,7 @@ namespace Journal
             }
         }
 
+        // Cuando cambia el dia o mes
         private void cal_DateChanged(object sender, DateRangeEventArgs e)
         {
             DateTime current = cal.SelectionStart;
@@ -148,15 +152,16 @@ namespace Journal
 
             
         }
-
+        
+        // Limpia la hoja actual
         private void clear_Click(object sender, EventArgs e)
         {
             journalentry.Text = "";
             journalentry.Select();
             computeStats();
         }
-
       
+        // Muestra el formulario About
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             AboutBox1 a = new AboutBox1();
@@ -164,6 +169,7 @@ namespace Journal
             a.Dispose();
         }
 
+        // Guarda todo
         private void saveCurrentEntryToolStripMenuItem_Click(object sender, EventArgs e)
         {
             saveEntry();
@@ -171,6 +177,7 @@ namespace Journal
             journalentry.Select();
         }
 
+        // Cambia la carpeta de destino
         private void changeJournalFolderToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             Form c = new ChangeFolder();
@@ -191,6 +198,11 @@ namespace Journal
         {
             wordcount.Text = (journalentry.Text.Split(' ').Length-1).ToString();
             charcount.Text = journalentry.Text.Length.ToString();
+        }
+
+        private void Journal_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
